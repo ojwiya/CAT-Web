@@ -1,8 +1,8 @@
 {
   "name": "angular-material-admin",
   "version": "1.2.0",
-  "devDependencies": {},
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "browser-ssync": "~1.7.1",
     "chalk": "~0.5.1",
     "del": "~0.1.3",
