@@ -46,7 +46,7 @@
   },
   "scripts": {
     "init": "npm install",
-    "install": "bower install",
-    "postinstall": "gulp build"
+    "install": "bower install"
+    //,"postinstall": "gulp build"
   }
 }
