@@ -10,6 +10,9 @@ var browserSync = require('browser-sync');
 
 var middleware = require('./proxy');
 
+// process.env.PORT lets the port be set by Heroku
+var port = process.env.PORT || 3000;
+
 function browserSyncInit(baseDir, files, browser) {
   browser = browser === undefined ? 'default' : browser;
 
@@ -27,6 +30,7 @@ function browserSyncInit(baseDir, files, browser) {
       middleware: middleware,
       routes: routes
     },
+    port: port,
     browser: browser
   });
 }
